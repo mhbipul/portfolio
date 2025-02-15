@@ -1,4 +1,4 @@
-import { FaFacebook, FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaWhatsappSquare , FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 import { FaPinterest } from "react-icons/fa";
 
 const Footer = () => {
@@ -7,9 +7,9 @@ const Footer = () => {
       <div className="container mx-auto px-8 md:px-16 lg:px-24">
         <div className="flex flex-col md:flex-row md:space-x-12 items-center mb-4">
           <div className="flex-1 mb-4 md:mb-0">
-            <h3 className="text-2xl font-bold mb-2">Yousaf</h3>
+            <h3 className="text-2xl font-bold mb-2">Mahmudul Hasan Bipul</h3>
             <p className="text-gray-400">
-              Full-Stack Developer based in the USA, specializing in web and
+              Full-Stack Developer based in Bangladesh, specializing in web and
               software development.
             </p>
           </div>
@@ -37,16 +37,16 @@ const Footer = () => {
           justify-between items-center"
         >
           <p className="text-gray-400">
-            &copy; {new Date().getFullYear()} Yousaf. All rights reserved.
+            &copy; {new Date().getFullYear()} Mahmudul. All rights reserved.
           </p>
           <div className="flex space-x-4 my-4 md:my-0">
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="https://pin.it/2FmC8AitJ " className="text-gray-400 hover:text-white">
               <FaPinterest />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
-              <FaTwitter />
+            <a href="https://wa.me/+8801956480877" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white">
+              <FaWhatsappSquare  />
             </a>
-            <a href="#" className="text-gray-400 hover:text-white">
+            <a href="www.linkedin.com/in/mahmudulbipul" className="text-gray-400 hover:text-white">
               <FaLinkedin />
             </a>
             <a href="https://github.com/mhbipul" className="text-gray-400 hover:text-white">

@@ -15,16 +15,16 @@ const Contact = () => {
             <div className='mb-4 mt-8'>
                 <FaEnvelope className='inline-block text-green-400 mr-2'></FaEnvelope>
                 <a href="mailto:youremail@example.com" className='hover:underline'>
-                    youremail@exmple.com
+                    mhbipul99bd@gmail.com 
                 </a>
             </div>
             <div className='mb-4'>
                 <FaPhone className='inline-block text-green-400 mr-2'></FaPhone>
-                <span>+9828839922</span>
+                <span>+8801956480877</span>
             </div>
             <div className='mb-4'>
                 <FaMapMarkedAlt className='inline-block text-green-400 mr-2'></FaMapMarkedAlt>
-                <span>sreet, city, pronice, country</span>
+                <span>Munshigonj,Dhaka,Bangladesh</span>
             </div>
           </div>
           <div className='flex-1 w-full'>

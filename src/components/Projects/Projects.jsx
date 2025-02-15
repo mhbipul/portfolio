@@ -1,54 +1,113 @@
-import employeeImage from "../../../public/employee-ms.png";
-import bookImage from "../../../public/admin-dashboard.png";
+import tourPlannerImage from "../../../public/tourplanner.png";
+import fileUPloader from "../../../public/fileUploader.png";
+
+import WeatherImage from "../../../public/weatherImage.jpg";
+import pdfReaderImage from "../../../public/pdfReaderImage.png";
+import webServer from "../../../public/server.png";
+import calculator from "../../../public/calculator.png";
+import portfolio from "../../../public/portfolio.png";
+import store from "../../../public/backend-api.png";
+import task from "../../../public/taskManagement.png";
+import cart from "../../../public/cart.png";
+import reactRouter from "../../../public/React-Router.png";
+import dashboard from "../../../public/dashboard.png"
 
 const projects = [
   {
     id: 1,
-    name: "Employee MS",
-    technologies: "MERN Stack",
-    image: employeeImage,
-    github: "https://github.com/mhbipul",
-    link : "https://www.youtube.com/@mhbsdorm"
+    name: "Tour-Planner",
+    technologies: "Frontend",
+    image: tourPlannerImage,
+    github: "https://github.com/mhbipul/Tour-Planner2.0",
+    link : "https://mhbipul.github.io/Tour-Planner2.0/"
   },
   {
     id: 2,
-    name: "Blog App",
-    technologies: "MERN Stack",
-    image: bookImage,
+    name: "React-Portfolio",
+    technologies: "Frontend",
+    image: portfolio,
     github: "https://github.com/mhbipul",
-    link : "https://www.youtube.com/@mhbsdorm"
+    link : "https://github.com/mhbipul/portfolio"
   },
   {
     id: 3,
-    name: "Book MS",
-    technologies: "MERN Stack",
-    image: employeeImage,
-    github: "https://github.com/mhbipul",
-    link : "https://www.youtube.com/@mhbsdorm"
+    name: "Express-Store-Api",
+    technologies: "Backend",
+    image: store,
+    github: "https://github.com/mhbipul/store-api",
+    link : " https://youtu.be/FyrZmpsQOFk"
   },
   {
     id: 4,
-    name: "Book MS",
-    technologies: "MERN Stack",
-    image: employeeImage,
-    github: "https://github.com/mhbipul",
-    link : "https://www.youtube.com/@mhbsdorm"
+    name: "File Uploader",
+    technologies: "Backend",
+    image: fileUPloader,
+    github: "https://github.com/mhbipul/simple_file_uploader_using_multer",
+    link : " https://youtu.be/B6lyNW1DdWY"
   },
   {
     id: 5,
-    name: "Book MS",
-    technologies: "MERN Stack",
-    image: employeeImage,
-    github: "https://github.com/mhbipul",
-    link : "https://www.youtube.com/@mhbsdorm"
+    name: "Task Management",
+    technologies: "MERN",
+    image: task,
+    github: "https://github.com/mhbipul/Task_Mangement_MERN",
+    link : "https://youtu.be/HDXk6s5vs8s"
   },
   {
     id: 6,
-    name: "Book MS",
-    technologies: "MERN Stack",
-    image: employeeImage,
+    name: "React- ADD to Cart",
+    technologies: "Frontend",
+    image: cart,
+    github: "https://github.com/mhbipul/simple-react-e-commerce",
+    link : "https://sneaky-low.surge.sh/"
+  },
+  {
+    id: 7,
+    name: "React-Router Simple Project",
+    technologies: "Frontend",
+    image: reactRouter,
+    github: "https://github.com/mhbipul/simple-react-router-demo",
+    link : " https://straight-weight.surge.sh/"
+  },
+  {
+    id: 8,
+    name: "Python Webserver",
+    technologies: "Backend",
+    image: webServer,
     github: "https://github.com/mhbipul",
-    link : "https://www.youtube.com/@mhbsdorm"
+    link : "https://github.com/mhbipul/http-server-using-python-socket-programming"
+  },
+  {
+    id: 9,
+    name: "PDF Reader",
+    technologies: "Backend",
+    image: pdfReaderImage,
+    github: "https://github.com/mhbipul",
+    link : "https://github.com/mhbipul/simple_pdfreader"
+  },
+  {
+    id: 10,
+    name: "Weather App",
+    technologies: "Backend",
+    image: WeatherImage,
+    github: "https://github.com/mhbipul/weather-app",
+    link : "https://github.com/mhbipul/weather-app"
+  },
+  {
+    id: 11,
+    name: "BMI Calculator",
+    technologies: "Frontend",
+    image: calculator,
+    github: "https://github.com/mhbipul/simple-bmi-calculator-react",
+    link : "https://github.com/mhbipul/weather-app"
+  },
+  {
+    id: 12,
+    name: "React-Dashboard",
+    technologies: "Frontend",
+    image: dashboard,
+    github: "https://github.com/mhbipul/Admin_Dashboard",
+    link : "https://mhbipuladmindashboard.netlify.app/"
   },
 ];
 
